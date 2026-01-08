@@ -55,6 +55,18 @@ $ cless git help merge
 $ cless git help log
 ```
 
+## Configuration
+
+The colors can be customized by defining the following variables (shown here with their default values):
+
+```fish
+set -gx COLORMAN_BOLD (set_color --bold blue)
+set -gx COLORMAN_UNDERLINE (set_color --underline green)
+set -gx COLORMAN_STANDOUT (set_color --reverse yellow)
+```
+
+Note that you can also pass hex rgb values into `set_color`.
+
 # License
 
 [MIT][mit] © [Patrick](https://github.com/patrickf1)
